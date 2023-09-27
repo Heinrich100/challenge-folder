@@ -43,17 +43,18 @@ body {
 }
 
 .top-caption {
-  background-color: #ff0000;
+  background-color: #ec2f2f;
   color: #fff;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   text-transform: uppercase;
   display: inline-block;
   position: absolute;
   padding: 5px 15px;
-  top: -15px;
+  top: -17px;
   left: -40px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  /* text-align: center; */
 }
 
 .more-info:link,
@@ -68,13 +69,13 @@ body {
 
 /* COLOR BAR */
 .container {
-  width: 100%;
+  /* width: 100%; */
   margin-top: 30px;
 }
 
-.box {
+.color {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 10px;
 }
 
 .black {
@@ -85,35 +86,35 @@ body {
 }
 
 .blue {
-  background-color: #0000ff;
+  background-color: #2f6ee2;
   width: 25px;
   height: 25px;
   border-radius: 3px;
 }
 
 .red {
-  background-color: #f00;
+  background-color: #ec2f2f;
   width: 25px;
   height: 25px;
   border-radius: 3px;
 }
 
 .yellow {
-  background-color: #ffff00;
+  background-color: #f0bf1e;
   width: 25px;
   height: 25px;
   border-radius: 3px;
 }
 
 .green {
-  background-color: #0faf0f;
+  background-color: #90cc20;
   width: 25px;
   height: 25px;
   border-radius: 3px;
 }
 
 .brown {
-  background-color: #6707079e;
+  background-color: #885214;
   width: 25px;
   height: 25px;
   border-radius: 3px;
